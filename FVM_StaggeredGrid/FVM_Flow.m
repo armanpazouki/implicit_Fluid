@@ -1,5 +1,8 @@
+% Flow solver based on index 2 DAE, FVM, and staggered grid
+
 %the code has issue somewhere. increase the domain size and you will see
 %that. the boundaries are not working well
+
 classdef FVM_Flow < handle
     properties
         ni;

@@ -1,3 +1,7 @@
+% Flow solver based on index 2 DAE and FDM
+% Unfortunately it is rank deficient. Therefore, instead of A\b or
+% inverse(A)*b we used linsolve
+
 function PoiseuilleSolver()
     clear all
     close all
